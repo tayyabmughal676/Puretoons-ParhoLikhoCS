@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".VideoActivity">
 
-    <android.support.v7.widget.Toolbar
+    <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/myToolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -16,8 +16,7 @@
         android:minHeight="?attr/actionBarSize"
         app:titleTextColor="@android:color/white">
 
-    </android.support.v7.widget.Toolbar>
-
+    </com.google.android.material.appbar.MaterialToolbar>
 
 
     <VideoView
